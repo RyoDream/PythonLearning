@@ -1,0 +1,11 @@
+class Foo(object):
+    def instance_method(self, arg):
+        statements
+
+    @classmethod
+    def class_method(cls, arg):
+        statements
+
+    @staticmethod
+    def static_method(arg):
+        statements
