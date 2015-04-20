@@ -16,4 +16,12 @@ print list[2:]
 print tinylist * 2
 print list + tinylist
 
+s = (100,'hehe',300.01)
+x,y,z = s
+print x
+print y
+print z
+
+
+
 
