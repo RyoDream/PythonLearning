@@ -48,3 +48,13 @@ print factor(6)     # (3, 2)
 print factor(23)    # (23, 1)
 print factor(12)    # (6, 2)
 
+
+def countdown(start):
+	n=start
+	def display():
+		print ('T-minutes %d' % n)
+	while n > 0:
+		display()
+		n -= 1
+
+countdown(5)
